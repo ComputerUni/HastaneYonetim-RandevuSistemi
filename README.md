@@ -41,11 +41,8 @@ Kod içinde doğrudan kullanılan tablolar ve sütunlar (projede daha fazlası o
 
 - `Tbl_Randevular`
   - `RandevuDoktor` (string) — randevuyu yapan doktorun adı
-  - (Uygulamada `dataGridView` hücresinden index 7 kullanılarak şikayet/sikayet metni okunuyor; sütun sırasına göre `Sikayet` gibi bir sütun olmalıdır.)
 
-- `Tbl_Hastalar`, `Tbl_Brans`, `Tbl_Duyurular` vb. — proje dosyalarında bu isimlerle formlar bulunduğundan veritabanında karşılıkları olmalıdır.
-
-Aşağıda temel bir örnek tablo şeması görebilirsiniz (örnek maksatlı):
+Aşağıda temel bir örnek tablo şeması görebilirsiniz:
 
 ```sql
 CREATE TABLE Tbl_Doktorlar (
@@ -66,7 +63,6 @@ CREATE TABLE Tbl_Randevular (
 );
 ```
 
-Bu SQL sadece uygulamayı çalıştırabilmeniz için örnektir — gerçek proje tabloları farklı olabilir.
 
 ## Gerekli Araçlar ve Kurulum
 
